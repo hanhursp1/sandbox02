@@ -17,6 +17,18 @@ body {
   /* gap: 10px; */
 }
 
+.toplogo {
+  text-align: center;
+}
+
+.desktop-only {
+  display: inline;
+}
+
+.mobile-only {
+  display: none;
+}
+
 
 /* Sidebar Content */
 .sidebar {
@@ -29,10 +41,6 @@ body {
   height: max(100vh, 100%);
   z-index: 1;
   box-shadow: -5px 0px 5px 0px var(--shadow-color);
-}
-
-.sidebar h1 {
-  text-align: center;
 }
 
 .links {
@@ -138,5 +146,13 @@ body {
     margin: 2px;
     padding: 10px;
     border-radius: 3px;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: inline;
   }
 }
